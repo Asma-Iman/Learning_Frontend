@@ -98,9 +98,186 @@
         </ol>
 
         <h4>ENTITIES</h4>
-        <p>This is &nbsp;&nbsp; space.</p>
-        <p>This is heart: &hearts;</p>
-        <p>This is star: &bigstar;</p>
-        <p>This is brackets: &lt; &gt;</p>
+            <p>This is &nbsp;&nbsp; space.</p>
+            <p>This is heart: &hearts;</p>
+            <p>This is star: &bigstar;</p>
+            <p>This is brackets: &lt; &gt;</p>
+        
+
+        <h4>TABLES</h4>
+        <table>
+            <caption><h4>Food Menu</h4></caption>
+            <tr>
+                <th>Item</th>
+                <th>Price</th>
+            </tr>
+
+            <tr>
+                <td>Frooti</td>
+                <td>10</td>
+            </tr>
+
+            <tr>
+                <td>Samosa</td>
+                <td>12</td>
+            </tr>
+
+            <tr>
+                <td>Chips</td>
+                <td>20</td>
+            </tr>
+            
+        </table>
+
+        <h4>SEMANTICS IN TABLES</h4>
+        <ol>
+            <li><thead>Table Header</thead></li>
+            <li><tbody>Table Body</tbody></li>
+            <li><tfoot>Table Footer</tfoot></li>
+        </ol>
+
+        <h4>COLSPAN AND ROWSPAN</h4>
+        <table border="black">
+            <caption><h4>STUDENT LIST</h4></caption>
+            <tr>
+                <th rowspan="2">Name</th>
+                <th colspan="2">Subject</th>
+            </tr>
+            <tr>
+                <th>Computer</th>
+                <th>English</th>
+            </tr>
+
+            <tr>
+                <td>Asma</td>
+                <td>90</td>
+                <td>80.5</td>
+            </tr>
+
+            <tr>
+                <td>Deepak</td>
+                <td>98</td>
+                <td>99</td>
+            </tr>
+
+            <tr>
+                <td>Ayesha</td>
+                <td>79</td>
+                <td>100</td>
+            </tr>
+            
+        </table>
+
+        <h4>FORMS</h4>
+        <form action="/HTML/question.html">
+            Normal
+            <input>
+            <br>
+            Username
+            <input type="text">
+            <br>
+            Password 
+            <input type="password"/>
+            <br>
+            Number
+            <input type="number">
+            <br>
+            Time
+            <input type="time">
+            <br>
+            Colour
+            <input type="color">
+        </form>
+
+        <h4>PLACEHOLDER</h4>
+        <form action="/HTML/question.html">
+            Username
+            <input type="text" placeholder="Username">
+            <br>
+            Password 
+            <input type="password" placeholder="Password">
+        </form>
+
+        <h4>LABEL</h4>
+        <h5>APPROACH 1</h5>
+        <form action="/HTML/question.html">
+            <label>
+            Username
+            <input type="text" placeholder="Username">
+            </label>
+            <br>
+            <label>
+            Password 
+            <input type="password" placeholder="Password">
+            </label>
+        </form>
+
+        <h5>APPROACH 2(Classical)</h5>
+        <form action="/HTML/question.html">
+
+            <div>
+                <label for="username">Username: </label>
+                <input type="text" placeholder="Username" id="username">
+            </div>
+
+            <div>
+                <label for="password">Password: </label>
+                <input type="password" placeholder="Password">
+            </div>
+        </form>
+
+        <h4>BUTTON</h4>
+        <form action="/HTML/question.html">
+
+            <div>
+                <label for="username">Username: </label>
+                <input type="text" placeholder="Username" id="username">
+            </div>
+
+            <div>
+                <label for="password">Password: </label>
+                <input type="password" placeholder="Password">
+            </div>
+            
+            <h5>DEFAULT</h5>
+            <button>Submit</button>
+
+            <h5>SUBMIT</h5>
+            <button type="submit">Submit</button>
+
+            <h5>BUTTON</h5>
+            <button type="button">Button</button>
+
+            <h5>RESET</h5>
+            <button type="reset">Reset</button>
+
+            <h5>INPUT TYPE BUTTON</h5>
+            <input type="button">
+            <input type="submit" value="Click Me">
+
+        </form>
+
+        <h4>NAME ATTRIBUTE</h4>
+        <form action="/HTML/question.html">
+
+            <div>
+                <label for="username">Username: </label>
+                <input type="text" placeholder="Username" id="username" name="username">
+            </div>
+
+            <div>
+                <label for="password">Password: </label>
+                <input type="password" placeholder="Password" id="username" name="password">
+            </div>
+
+            <button type="submit">Submit</button>
+        </form>
+
+        <hr>
+
+        <form action="https://www.youtube.com/results">
+            <input type="text" placeholder="Search In YouTube" name="search_query">
+            <button type="submit">Search</button>
+        </form>
     </body>
-</html>
++</html>
