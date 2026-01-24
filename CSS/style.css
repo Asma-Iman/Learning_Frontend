@@ -1,0 +1,39 @@
+/* TAG */
+/* tag name {
+    stylying
+} */
+
+div{
+    font-weight: 800;
+}
+
+/* CLASS
+
+.class name {
+
+} */
+
+.sup{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* ID 
+
+#id name {
+
+} */
+
+#set{
+    color: pink;
+}
+
+.navbar {
+    color: blue;
+}
+
+
+.name{
+    margin: 5px;
+    padding: 10px;
+    border: 5px;
+}
