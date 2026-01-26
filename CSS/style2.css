@@ -10,5 +10,36 @@ h2{
 
 p{
     font-weight: normal;
-    text-decoration: overline;
+    text-decoration: dashed overline ;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+li{
+    padding: 10px;
+    margin: 10px;
+    font-size: 1rem;
+}
+
+li a {
+    text-decoration: none;
+    
+}
+
+.btn{
+    border-radius: 5px;
+    margin: 15px;
+    padding: 15px;
+    background-color: rgb(88, 5, 9);
+    color: white;
+}
+
+.btn:hover{
+    transform: scale(1.1) ;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.5);
 }
