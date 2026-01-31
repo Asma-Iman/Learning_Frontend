@@ -2,7 +2,7 @@
     font-family: "Courier New";
 }
 
-h1, h3{
+h1{
     color: #b92b27;
 }
 
@@ -21,8 +21,13 @@ h1, h3{
 }
 
 .post a{
-    color: purple;
+    color: purple !important;  
     background-color: yellow;
+}
+
+.post a{
+    color: pink;  
+    background-color: lightcyan;
 }
 
 nav ul li a{
@@ -74,6 +79,33 @@ input[type="radio"]:checked + label{
     font-weight: bold;
 }
 
-.post:nth-of-type(2) { 
+/* .post:nth-of-type(2) { 
     background-color: blanchedalmond;
+} */
+
+div:nth-of-type(3n) { 
+    background-color: lightblue;
 }
+
+h1::first-letter{
+    color: pink;
+}
+
+#para::first-line{
+    font-weight: bold;
+    color: purple;
+}
+
+.p::selection{
+    background-color: bisque;
+}
+
+h3{
+    background-color: yellow;
+    font-weight: normal;
+}
+
+h3{
+    background-color: lavenderblush;
+}
+
