@@ -1,0 +1,39 @@
+div{
+    height: 200px;
+    width: 500px;
+    background-color: palevioletred;
+    /* border-style: solid;
+    border-color: black; */
+    border: 5px solid black;
+    border-left-color: palegreen;
+    border-radius: 20px;
+    padding-top: 50px;
+    margin-bottom: 25px;
+}
+
+h1{
+    border-width: 2px;
+    border-style: dashed;
+    border-color: crimson;
+    border-top: 5px solid;
+    padding: 20px;
+}
+
+button{
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: bisque;
+    padding: 10px 20px 30px;
+}
+
+p{
+    height: 100px;
+    width: 500px;
+    background-color: rgb(255, 62, 101);
+    padding: 40px 10px 15px 20px;
+    border-top: 10px;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 20%;
+    text-align: center;
+    border: 5px solid black;
+}
