@@ -6,3 +6,12 @@
     margin: auto;
     box-shadow: 2px 2px 8px black;
 }
+
+#one{
+    width: 400px;
+    height: 200px;
+    background-color: #3bfa81;
+    margin: 10px auto;
+    background-image: url(/Chapter4/daniil-silantev-l9XWp3S9yuk-unsplash.jpg);
+    background-size: cover;
+}
